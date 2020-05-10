@@ -2,7 +2,7 @@
 自動產生各種奧客戶、慣老闆的日常用語。
 
 ## 專案首頁
-![image](https://github.com/pchu128/stupid_talk_generator/blob/master/Index.png)
+<img src="https://github.com/pchu128/stupid_talk_generator/blob/master/Index.png" width="600px" height="600px">
 
 ## 功能導覽
 - 選取想要的職業
