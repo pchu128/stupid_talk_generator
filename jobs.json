@@ -1,0 +1,22 @@
+{
+  "allJobs": [
+    {
+      "id": 1,
+      "name": "engineer",
+      "nameTW": "工程師",
+      "image": "https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5668/angry-developer.jpg"
+    },
+    {
+      "id": 2,
+      "name": "designer",
+      "nameTW": "設計師",
+      "image": "https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5667/angry-designer.jpg"
+    },
+    {
+      "id": 3,
+      "name": "entrepreneur",
+      "nameTW": "創業家",
+      "image": "https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5669/angry-founder.jpg"
+    }
+  ]
+}
