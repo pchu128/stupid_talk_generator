@@ -5,6 +5,7 @@ const exphbs = require('express-handlebars')
 const bodyParser = require('body-parser')
 const port = 3000
 const makeSentence = require('./random-sentence')
+const jobs = require('./jobs.json')
 
 // setting template engine
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }))
@@ -15,13 +16,13 @@ app.use(bodyParser.urlencoded({ extended: true }))
 
 // setting routes
 app.get('/', (req, res) => {
-  res.render('index')
+  res.render('index', {job: jobs.allJobs})
 })
 
 app.post('/', (req, res) => {
   const option = req.body.option
   const sentence = makeSentence(req.body.option)
-  res.render('index', {sentence, option})
+  res.render('index', {job: jobs.allJobs, sentence, option})
 })
 
 // handlebars helper => if else expression
